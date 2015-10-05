@@ -1,0 +1,8 @@
+function connect_to_turtlebot {
+  export ROS_MASTER_URI=http://192.168.1.185:11311
+  export ROS_HOSTNAME=192.168.1.180
+  export TURTLEBOT_BASE=create
+  export TURTLEBOT_STACKS=circles
+  export TURTLEBOT_3D_SENSOR=kinect
+  export TURTLEBOT_SERIAL_PORT=/dev/ttyUSB0
+}
